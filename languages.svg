@@ -56,9 +56,9 @@
   <rect x="0" y="0" width="300" height="8" fill="white" rx="5"/>
 </mask>
 
-    <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="238.26" height="8" fill="#e34c26"/>
+    <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="158.26" height="8" fill="#e34c26"/>
   
-    <rect mask="url(#rect-mask)" data-testid="lang-progress" x="238.26" y="0" width="37.23" height="8" fill="#3572A5"/>
+    <rect mask="url(#rect-mask)" data-testid="lang-progress" x="238.26" y="0" width="117.23" height="8" fill="#3572A5"/>
   
     <rect mask="url(#rect-mask)" data-testid="lang-progress" x="275.49" y="0" width="10.23" height="8" fill="#3178c6"/>
   
