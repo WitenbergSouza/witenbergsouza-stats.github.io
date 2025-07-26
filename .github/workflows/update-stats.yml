@@ -1,0 +1,16 @@
+name: Update GitHub Stats
+on:
+  schedule:
+    - cron: 0 */23 1 * *  # Runs every 1 day of month
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate Stats
+        run: |
+          curl -s https://api.github.com/users/$GITHUB_ACTOR > stats.json
+          node generate-svg.js
+      - uses: actions/upload-artifact@v2
+        name: stats
